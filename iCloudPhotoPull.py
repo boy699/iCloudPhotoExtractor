@@ -3,7 +3,7 @@ import getpass
 import sys
 import shutil
 
-username = raw_input("Enter Apple ID: ")
+username = raw_input("jutarat")
 pw = getpass.getpass(prompt='Enter Password: ')
 
 api = PyiCloudService(username, pw)
